@@ -81,3 +81,35 @@ footer a {
     margin: 0 30px;
 }
 
+/* Entire Section Start*/
+section {
+    padding: 60px;
+}
+
+/*About Me Section Start*/
+
+.main {
+    background-image: url('../images/backgroundcomputer.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+img {
+    border: 3px solid whitesmoke;
+    width: 50%;
+    margin: 100px;
+}
+
+.herotext {
+    color: white;
+    font-weight: bold;
+    width: 500px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 100px;
+    font-size: xx-large;
+}
+
