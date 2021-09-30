@@ -64,24 +64,30 @@ section {
     background-size: cover;
     background-position: center;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
-img {
+.heroimage {
     border: 3px solid whitesmoke;
-    width: 50%;
-    margin: 100px;
+    width:100px;
+    height: 100px;
+
 }
 
 .herotext {
     color: white;
     font-weight: bold;
-    width: 500px;
     border: 15px solid green;
+    background-color: green;
+    width: 500px;
     padding: 50px;
     margin: 100px;
-    font-size: xx-large;
+    
+}
+
+.herotext h2 {
+    color:skyblue;
 }
 
 /* Work Section Start*/
@@ -98,6 +104,8 @@ img {
 
 
 
+
+
 .coderefractor {
     background-image:url(../images/horiseon.jpg);
     background-size: cover;
@@ -110,6 +118,42 @@ img {
     padding: 5px;
     box-sizing: content-box;
     height: 500px
+}
+
+.flexgrid {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: baseline;
+    padding: 10px;
+}
+
+.html1 {
+    flex: 1 1 0;
+    background-image:url(../images/html1.jpg);
+    background-size: cover;
+    background-position: center;
+    border:10px solid green;
+    padding: 10px;
+}
+
+.html2 {
+    flex: 1 1 0;
+    background-image:url(../images/html2.jpg);
+    background-size: cover;
+    background-position: center;
+    border:10px solid green;
+    padding: 10px;
+}
+
+.css1 {
+    flex: 1 1 0;
+    background-image:url(../images/css1.jpg);
+    background-size: cover;
+    background-position: center;
+    border:10px solid green;
+    padding: 10px;
 }
 
 
