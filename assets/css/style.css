@@ -6,14 +6,14 @@
 
 body {
     color:rgb(9, 2, 43);
-    background-color: rgb(224, 236, 156);
+    background-color:rgb(204, 221, 178);
     font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Header*/
 header {
     padding: 20px 35px;
-    background-color: mediumslateblue;
+    background-color:green;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -23,7 +23,7 @@ header h1 {
     font-weight: bolder;
     margin: 0;
     font-size: 50px;
-    color: orangered;
+    color:skyblue;
 }
 
 header a {
@@ -52,36 +52,6 @@ header nav ul li a {
     font-size: xx-large;
 }
 
-/* Footer Starts */
-
-footer {
-    background-color: mediumslateblue;
-    padding: 40px 35px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    width: 100%;
-}
-
-footer h4 {
-    color:orangered;
-    font-size: xx-large;
-    margin: 0;
-    font-weight: bolder;
-}
-
-footer div {
-    line-height: 1.5;
-    text-align: right;
-}
-
-footer a {
-    color:white;
-    font-size: xx-large;
-    font-weight: bolder;
-    margin: 0 30px;
-}
-
 /* Entire Section Start*/
 section {
     padding: 60px;
@@ -90,7 +60,7 @@ section {
 /*About Me Section Start*/
 
 .main {
-    background-image: url('../images/backgroundcomputer.jpg');
+    background-image: url(../images/backgroundcomputer.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -114,6 +84,67 @@ img {
     font-size: xx-large;
 }
 
+/* Work Section Start*/
+.worksection div {
+    color:white;
+    font-size: xx-large;
+}
+.worksection h2 {
+    color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 
+
+.coderefractor {
+    background-image:url(../images/horiseon.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: 10px solid greenyellow;
+    width: 100%;
+    padding: 5px;
+    box-sizing: content-box;
+    height: 500px
+}
+
+
+
+
+
+
+
+/* Footer Starts */
+
+footer {
+    background-color:green;
+    padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+footer h4 {
+    color:skyblue;
+    font-size: xx-large;
+    margin: 0;
+    font-weight: bolder;
+}
+
+footer div {
+    line-height: 1.5;
+    text-align: right;
+}
+
+footer a {
+    color:white;
+    font-size: xx-large;
+    font-weight: bolder;
+    margin: 0 30px;
+}
 
