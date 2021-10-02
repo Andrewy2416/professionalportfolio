@@ -81,6 +81,7 @@ section {
     width: 500px;
     padding: 50px;
     margin: 100px;
+    font-size: x-large;
     
 }
 
@@ -104,8 +105,25 @@ section {
 
 
 h3 {
-    background-color: skyblue;
-    text-decoration: none;
+    text-align: center;
+    font-size: x-large;
+    color: black;
+}
+
+.coderefractor h3 {
+    background-color: gray;
+}
+
+.html1 h3 {
+    background-color: gray;
+}
+
+.html2 h3 {
+    background-color: gray;
+}
+
+.css1 h3 {
+    background-color: gray;
 }
 
 p {
@@ -223,48 +241,30 @@ footer a {
 
 /*Media resize*/
 
-@media screen and (max-width: 980px) {
-    header {
-        flex-flow:column;
-        justify-content: center;
-        text-align: center;
-        align-items: center;
-    }
-
+@media screen and (max-width: 900px) {
+    
     header h1 {
-        margin: 0 auto;
-        padding-left: 0;
-        padding-right: 0;
-        width: 100%
+        text-align: center;
+        margin: auto;
     }
 
-    nav {
-        margin-bottom: 5px;
+    header nav ul li a {
+        display: flex;
+	    flex-direction: row;
+	    flex-wrap: nowrap;
+	    justify-content: space-between;
+	    align-items: baseline;
+        padding: 10px;
     }
 
-    .main {
-        background-size: 190%;
-        justify-content: center;
-        align-items: center;
+    .main .heroimage {
+        text-align: center;
+        margin: auto;
     }
-
-    .main img {
-        margin-right: 4%;
-        margin-left: 4%;
-        justify-content: center;
-        align-items: center;
-    }
-
-    section {
-        margin-right: 4%;
-        margin-left: 4%;
-
-    }
-}   
-
-@media screen and (max-width: 600px) {
     
 
-}
+    
+
+
 
     
